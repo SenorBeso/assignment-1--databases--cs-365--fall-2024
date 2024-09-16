@@ -1,0 +1,49 @@
+<!ELEMENT university (student)+>
+
+
+<!--*
+First name
+* Middle name
+* Last name
+* Preferred name
+* Email
+* Phone
+
+
+* Student ID
+
+* Status (first year, second year, etc)
+* GPA
+* Major
+* Minor
+* Status (full-time, part-time, graduated, withdrawn)
+* Advisor
+* Date of initial enrollment
+* Graduation date-->
+
+<!ELEMENT student           (name,contact,program-info,academics-info)>
+<!ELEMENT name              (first-name,middle-name*,last-name,prefererd-name*)>
+<!ELEMENT first-name        (#PCDATA)>
+<!ELEMENT middle-name       (#PCDATA)>
+<!ELEMENT last-name         (#PCDATA)>
+<!ELEMENT prefererd-name    (#PCDATA)>
+<!ELEMENT contact           (email,phone)>
+<!ELEMENT email             (#PCDATA)>
+<!ELEMENT phone             (#PCDATA)>
+<!ELEMENT program-info      (major+,minor*,advisor)>
+<!ELEMENT major             (#PCDATA)>
+<!ELEMENT Minor             (#PCDATA)>
+<!ELEMENT advisor           (#PCDATA)>
+<!ELEMENT academics-info    (id,GPA,progression-status,status,intial-enrollment,graduation-date)>
+<!ELEMENT id                (#PCDATA)>
+<!ELEMENT GPA               (#PCDATA)>
+<!ELEMENT progression-status(#PCDATA)>
+<!ELEMENT status            (#PCDATA)>
+<!ELEMENT intial-enrollment (#PCDATA)>
+<!ELEMENT graduation-date   (#PCDATA)>
+
+<!ATLIST student
+         progression-status (first year, second year,third year, fourth year) #REQUIRED>
+
+<!ATLIST student
+         status(full-time, part-time, graduated, withdrawn) #REQUIRED>
