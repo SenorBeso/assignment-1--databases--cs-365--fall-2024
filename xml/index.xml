@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
-<!DOCTYPE music-library SYSTEM "student.dtd">
+<!DOCTYPE university SYSTEM "student.dtd">
 
 <university>
-  <
+<student progression-status="first" status="full-time">
+  <name>
+    <first-name>Gordon</first-name>
+    <middle-name>Matthew</middle-name>
+    <last-name>Sumner</last-name>
+    <preferred-name>Sting</preferred-name>
+  </name>
+  <contact>
+    <email>sting@thepolice.com</email>
+    <phone>212.123.4567</phone>
+  </contact>
+  <program-info>
+    <major>Music</major>
+    <minor>English</minor>
+    <advisor>Andy Summers</advisor>
+  </program-info>
+  <academics-info>
+    <id>1234567</id>
+    <GPA>4.0</GPA>
+    <progression-status>first year</progression-status>
+    <status>full-time</status>
+    <intial-enrollment>08-25-1969</intial-enrollment>
+    <graduation-date>05-01-1973</graduation-date>
+  </academics-info>
+</student>
+</university>
