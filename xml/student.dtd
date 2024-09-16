@@ -1,26 +1,5 @@
 <!ELEMENT university (student)+>
 
-
-<!--*
-First name
-* Middle name
-* Last name
-* Preferred name
-* Email
-* Phone
-
-
-* Student ID
-
-* Status (first year, second year, etc)
-* GPA
-* Major
-* Minor
-* Status (full-time, part-time, graduated, withdrawn)
-* Advisor
-* Date of initial enrollment
-* Graduation date-->
-
 <!ELEMENT student           (name,contact,program-info,academics-info)>
 <!ELEMENT name              (first-name,middle-name*,last-name,prefererd-name*)>
 <!ELEMENT first-name        (#PCDATA)>
