@@ -103,4 +103,29 @@
       <graduation-date>05-01-2002</graduation-date>
     </academics-info>
   </student>
+  <student first-name="Mike" last-name="Inez">
+    <name>
+      <first-name>Mike</first-name>
+      <middle-name></middle-name>
+      <last-name>Inez</last-name>
+      <preferred-name></preferred-name>
+    </name>
+    <contact>
+      <email>mike@aic.com</email>
+      <phone>213.444.3323</phone>
+    </contact>
+    <program-info>
+      <major>Business Management</major>
+      <minor>Math</minor>
+      <advisor>Jerry Cantrell</advisor>
+    </program-info>
+    <academics-info>
+      <id>7645726</id>
+      <GPA>4.0</GPA>
+      <progression-status>second year</progression-status>
+      <status>full-time</status>
+      <intial-enrollment>08-25-1984</intial-enrollment>
+      <graduation-date>05-01-1988</graduation-date>
+    </academics-info>
+  </student>
 </university>
