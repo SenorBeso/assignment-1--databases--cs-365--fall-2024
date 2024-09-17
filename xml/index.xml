@@ -78,4 +78,29 @@
       <graduation-date>05-01-1987</graduation-date>
     </academics-info>
   </student>
+  <student first-name="Emily" last-name="Kokal">
+    <name>
+      <first-name>Emily</first-name>
+      <middle-name></middle-name>
+      <last-name>Kokal</last-name>
+      <preferred-name></preferred-name>
+    </name>
+    <contact>
+      <email>emily@warpaint.com</email>
+      <phone>213.123.7654</phone>
+    </contact>
+    <program-info>
+      <major>Political Science</major>
+      <minor>Law</minor>
+      <advisor>Jenny Lee Lindberg</advisor>
+    </program-info>
+    <academics-info>
+      <id>2983928</id>
+      <GPA>3.8</GPA>
+      <progression-status>third year</progression-status>
+      <status>full-time</status>
+      <intial-enrollment>08-25-1998</intial-enrollment>
+      <graduation-date>05-01-2002</graduation-date>
+    </academics-info>
+  </student>
 </university>

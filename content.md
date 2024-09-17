@@ -9,6 +9,8 @@ Philosophy, Music, full-time, Chris Cornell, 08-25-1978, 05-01-1982
 Saul Hudson, “Slash”, 8302438, slash@gnr.com, 213.456.8392, fourth year,
 2.0, Music, Criminal Justice, part-time, Axl Rose, 08-25-1983, 05-01-1987
 
+
+
 Emily Kokal, , 2983928, emily@warpaint.com, 213.123.7654, third year, 3.8,
 Political Science, Law, full-time, Jenny Lee Lindberg, 08-25-1998, 05-01-2002
 
