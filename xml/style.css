@@ -1,0 +1,157 @@
+:root,
+:root::before,
+student,
+student::before,
+name,
+contact,
+program-info,
+academics-info {
+  display: block;
+}
+
+:root {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+:root::before {
+  content: 'University Student Record';
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 24px 0;
+}
+
+/* Student container */
+student {
+  margin: 24px 0;
+}
+
+/* Display student name in the header */
+student::before {
+  content: 'Student: ' attr(progression-status);
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* Name formatting with space between parts */
+name {
+  margin: 12px 0;
+}
+
+name::before {
+  content: 'Name: ';
+  font-weight: bold;
+}
+
+first-name::after {
+  content: ' ';
+}
+
+middle-name::after {
+  content: ' ';
+}
+
+last-name::after {
+  content: ' ';
+}
+
+preferred-name::before {
+  content: '(Preferred: ';
+}
+
+preferred-name::after {
+  content: ')';
+}
+
+/* Contact information */
+contact {
+  margin: 12px 0;
+}
+
+contact::before {
+  content: 'Contact Information: ';
+  font-weight: bold;
+  display: block;
+}
+
+email::before {
+  content: 'Email: ';
+}
+
+phone::before {
+  content: 'Phone: ';
+}
+
+email, phone {
+  display: block;
+  margin-left: 20px;
+}
+
+/* Program information */
+program-info {
+  margin: 12px 0;
+}
+
+program-info::before {
+  content: 'Program Information:';
+  font-weight: bold;
+  display: block;
+}
+
+major::before {
+  content: 'Major: ';
+}
+
+minor::before {
+  content: 'Minor: ';
+}
+
+advisor::before {
+  content: 'Advisor: ';
+}
+
+major, minor, advisor {
+  display: block;
+  margin-left: 20px;
+}
+
+/* Academics info */
+academics-info {
+  margin: 12px 0;
+}
+
+academics-info::before {
+  content: 'Academics Information:';
+  font-weight: bold;
+  display: block;
+}
+
+id::before {
+  content: 'ID: ';
+}
+
+GPA::before {
+  content: 'GPA: ';
+}
+
+progression-status::before {
+  content: 'Progression Status: ';
+}
+
+status::before {
+  content: 'Status: ';
+}
+
+intial-enrollment::before {
+  content: 'Initial Enrollment: ';
+}
+
+graduation-date::before {
+  content: 'Graduation Date: ';
+}
+
+id, GPA, progression-status, status, intial-enrollment, graduation-date {
+  display: block;
+  margin-left: 20px;
+}

@@ -1,8 +1,10 @@
 Gordon Matthew Sumner, “Sting”, 1234567, sting@thepolice.com, 212.123.4567,
 first year, 4.0, Music, English, full-time, Andy Summers, 08-25-1969, 05-01-1973
 
-Kim Thayil, , 4567890, kim@soundgarden.com, 206.123.4567, second year, 3.0,
+Kim Thayil,  , 4567890, kim@soundgarden.com, 206.123.4567, second year, 3.0,
 Philosophy, Music, full-time, Chris Cornell, 08-25-1978, 05-01-1982
+
+
 
 Saul Hudson, “Slash”, 8302438, slash@gnr.com, 213.456.8392, fourth year,
 2.0, Music, Criminal Justice, part-time, Axl Rose, 08-25-1983, 05-01-1987

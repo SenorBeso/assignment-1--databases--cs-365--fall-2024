@@ -21,8 +21,10 @@
 <!ELEMENT intial-enrollment (#PCDATA)>
 <!ELEMENT graduation-date   (#PCDATA)>
 
-<!ATTLIST student
-         progression-status (first year|second year|third year|fourth year) #REQUIRED>
 
 <!ATTLIST student
-         status(full-time|part-time|graduated|withdrawn) #REQUIRED>
+  first-name  CDATA #REQUIRED
+  last-name   CDATA #REQUIRED
+
+<!ATTLIST progression-status (first-year|second-year|third-year|fourth-year)>
+<!ATTLIST status(full-time|part-time|graduated|withdrawn)>
