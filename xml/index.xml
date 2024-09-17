@@ -40,17 +40,42 @@
       <phone>206.123.4567</phone>
     </contact>
     <program-info>
-      <major>Music</major>
-      <minor>Criminal Justice</minor>
+      <major>Philosophy</major>
+      <minor>Music</minor>
       <advisor>Chris Cornell</advisor>
     </program-info>
     <academics-info>
-      <id>8302438</id>
+      <id>4567890</id>
       <GPA>3.0</GPA>
       <progression-status>second year</progression-status>
       <status>full-time</status>
       <intial-enrollment>08-25-1978</intial-enrollment>
       <graduation-date>05-01-1982</graduation-date>
+    </academics-info>
+  </student>
+  <student first-name="Saul" last-name="Hudson">
+    <name>
+      <first-name>Saul</first-name>
+      <middle-name></middle-name>
+      <last-name>Hudson</last-name>
+      <preferred-name>Slash</preferred-name>
+    </name>
+    <contact>
+      <email>slash@gnr.com</email>
+      <phone>213.456.8392</phone>
+    </contact>
+    <program-info>
+      <major>Music</major>
+      <minor>Criminal Justice</minor>
+      <advisor>Axl Rose</advisor>
+    </program-info>
+    <academics-info>
+      <id>8302438</id>
+      <GPA>2.0</GPA>
+      <progression-status>fourth year</progression-status>
+      <status>part-time</status>
+      <intial-enrollment>08-25-1983</intial-enrollment>
+      <graduation-date>05-01-1987</graduation-date>
     </academics-info>
   </student>
 </university>
