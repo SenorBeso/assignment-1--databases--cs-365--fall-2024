@@ -54,6 +54,33 @@
           "initialEnrollment": "08-25-1978",
           "graduationDate": "05-01-1982"
         }
+      },
+      {
+        "firstName": "Saul",
+        "lastName": "Hudson",
+        "name": {
+          "firstName": "Saul",
+          "middleName": "",
+          "lastName": "Hudson",
+          "preferredName": "Slash"
+        },
+        "contact": {
+          "email": "slash@gnr.com",
+          "phone": "213.456.8392"
+        },
+        "programInfo": {
+          "major": "Music",
+          "minor": "Criminal Justice",
+          "advisor": "Axl Rose"
+        },
+        "academicsInfo": {
+          "id": "8302438",
+          "GPA": "2.0",
+          "progressionStatus": "fourth-year",
+          "status": "part-time",
+          "initialEnrollment": "08-25-1983",
+          "graduationDate": "05-01-1987"
+        }
       }
     ]
   }
