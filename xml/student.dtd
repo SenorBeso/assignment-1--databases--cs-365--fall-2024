@@ -24,7 +24,7 @@
 
 <!ATTLIST student
   first-name  CDATA #REQUIRED
-  last-name   CDATA #REQUIRED
+  last-name   CDATA #REQUIRED>
 
 <!ATTLIST progression-status
           progression_status (first-year|second-year|third-year|fourth-year) #REQUIRED>
