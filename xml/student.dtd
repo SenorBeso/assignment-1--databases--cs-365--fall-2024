@@ -1,18 +1,31 @@
+<!-- The root element is university, which contatins one or more student elements-->
 <!ELEMENT university (student)+>
 
+<!--A student element is comprised of one name, contact, program-info,
+ and academics-info elements-->
 <!ELEMENT student           (name,contact,program-info,academics-info)>
+
+<!-- A name is comprised of the following elements:
+a first-name, middle-name, last-name, and a preferred name-->
 <!ELEMENT name              (first-name,middle-name,last-name,preferred-name)>
 <!ELEMENT first-name        (#PCDATA)>
 <!ELEMENT middle-name       (#PCDATA)>
 <!ELEMENT last-name         (#PCDATA)>
 <!ELEMENT preferred-name    (#PCDATA)>
+
+<!--A contact element must contain an email and phone-->
 <!ELEMENT contact           (email,phone)>
 <!ELEMENT email             (#PCDATA)>
 <!ELEMENT phone             (#PCDATA)>
+
+<!--The program info element is consisted of a major, a minor, and an advisor-->
 <!ELEMENT program-info      (major,minor,advisor)>
 <!ELEMENT major             (#PCDATA)>
 <!ELEMENT minor             (#PCDATA)>
 <!ELEMENT advisor           (#PCDATA)>
+
+<!--Academics info element is made up of their id number, their GPA,
+their progression-status, their status, their intial enrollment, and graduation date-->
 <!ELEMENT academics-info    (id,GPA,progression-status,status,intial-enrollment,graduation-date)>
 <!ELEMENT id                (#PCDATA)>
 <!ELEMENT GPA               (#PCDATA)>
@@ -21,13 +34,16 @@
 <!ELEMENT intial-enrollment (#PCDATA)>
 <!ELEMENT graduation-date   (#PCDATA)>
 
-
+<!-- This requires that a name be inputted for a student-->
 <!ATTLIST student
   first-name  CDATA #REQUIRED
   last-name   CDATA #REQUIRED>
 
+<!--This attribute allows the only options to be added to status be the year,
+and not a random string-->
 <!ATTLIST progression-status
           progression_status (first-year|second-year|third-year|fourth-year) #REQUIRED>
+
+<!--Similarly, this only allows these specific statuses to be inputted-->
 <!ATTLIST status
           status (full-time|part-time|graduated|withdrawn) #REQUIRED>
-
