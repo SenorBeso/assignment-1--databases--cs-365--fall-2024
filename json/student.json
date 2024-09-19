@@ -1,9 +1,33 @@
 {
-  "university": [{
-    "student": {
-      
-    }
+  "university": {
+    "students": [
+      {
+        "firstName": "Gordon",
+        "lastName": "Sumner",
+        "name": {
+          "firstName": "Gordon",
+          "middleName": "Matthew",
+          "lastName": "Sumner",
+          "preferredName": "Sting"
+        },
+        "contact": {
+          "email": "sting@thepolice.com",
+          "phone": "212.123.4567"
+        },
+        "programInfo": {
+          "major": "Music",
+          "minor": "English",
+          "advisor": "Andy Summers"
+        },
+        "academicsInfo": {
+          "id": "1234567",
+          "GPA": "4.0",
+          "progressionStatus": "first-year",
+          "status": "full-time",
+          "initialEnrollment": "08-25-1969",
+          "graduationDate": "05-01-1973"
+        }
+      }
+    ]
   }
-
-  ]
 }
