@@ -108,6 +108,33 @@
           "initialEnrollment": "08-25-1998",
           "graduationDate": "05-01-2002"
         }
+      },
+      {
+        "firstName": "Mike",
+        "lastName": "Inez",
+        "name": {
+          "firstName": "Mike",
+          "middleName": "",
+          "lastName": "Inez",
+          "preferredName": ""
+        },
+        "contact": {
+          "email": "mike@aic.com",
+          "phone": "213.444.3323"
+        },
+        "programInfo": {
+          "major": "Business Management",
+          "minor": "Math",
+          "advisor": "Jerry Cantrell"
+        },
+        "academicsInfo": {
+          "id": "7645726",
+          "GPA": "4.0",
+          "progressionStatus": "second-year",
+          "status": "full-time",
+          "initialEnrollment": "08-25-1984",
+          "graduationDate": "05-01-1988"
+        }
       }
     ]
   }
