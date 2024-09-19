@@ -1,18 +1,7 @@
-:root,
-:root::before,
-student,
-student::before,
-name,
-contact,
-program-info,
-academics-info {
-  display: block;
-}
-
 :root {
   margin: 0 auto;
   width: 1200px;
-  font: 200 16px 'Nunito Sans', serif;
+  font-family: 'Nunito Sans', serif;
 }
 
 :root::before {
@@ -20,138 +9,139 @@ academics-info {
   text-align: center;
   font-size: 2.5rem;
   margin: 24px 0;
-}
-
-/* Student container */
-student {
-  margin: 24px 0;
-}
-
-/* Display student name in the header */
-student::before {
-  content: 'Student: ' attr(progression-status);
-  margin-bottom: 12px;
   display: block;
 }
 
-/* Name formatting with space between parts */
+/* Student Container */
+student {
+  margin: 24px 0;
+  padding: 20px;
+}
+
+/* Display student first and last name as the header */
+student::before {
+  content: attr(first-name) " " attr(last-name);
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Name formatting */
+name::before {
+  content: 'Full Name: ';
+  font-weight: bold;
+  display: block;
+}
+
+name first-name::after {
+  content: ' ';
+}
+
+name middle-name::after {
+  content: ' ';
+}
+
+name preferred-name::before {
+  content: '(Preferred: ';
+}
+
+name preferred-name::after {
+  content: ')';
+}
+
 name {
   margin: 12px 0;
 }
 
-name::before {
-  content: 'Name: ';
-  font-weight: bold;
-}
-
-first-name::after {
-  content: ' ';
-}
-
-middle-name::after {
-  content: ' ';
-}
-
-last-name::after {
-  content: ' ';
-}
-
-preferred-name::before {
-  content: '(Preferred: ';
-}
-
-preferred-name::after {
-  content: ')';
-}
-
 /* Contact information */
-contact {
-  margin: 12px 0;
-}
-
 contact::before {
-  content: 'Contact Information: ';
+  content: 'Contact Information:';
   font-weight: bold;
   display: block;
 }
 
-email::before {
+contact email::before {
   content: 'Email: ';
 }
 
-phone::before {
+contact phone::before {
   content: 'Phone: ';
 }
 
 email, phone {
   display: block;
   margin-left: 20px;
+  margin-top: 5px;
 }
 
 /* Program information */
-program-info {
-  margin: 12px 0;
-}
-
 program-info::before {
   content: 'Program Information:';
   font-weight: bold;
   display: block;
 }
 
-major::before {
+program-info major::before {
   content: 'Major: ';
 }
 
-minor::before {
+program-info minor::before {
   content: 'Minor: ';
 }
 
-advisor::before {
+program-info advisor::before {
   content: 'Advisor: ';
 }
 
 major, minor, advisor {
   display: block;
   margin-left: 20px;
+  margin-top: 5px;
 }
 
 /* Academics info */
-academics-info {
-  margin: 12px 0;
-}
-
 academics-info::before {
   content: 'Academics Information:';
   font-weight: bold;
   display: block;
 }
 
-id::before {
+academics-info id::before {
   content: 'ID: ';
 }
 
-GPA::before {
+academics-info GPA::before {
   content: 'GPA: ';
 }
 
-progression-status::before {
+/* Display progression status and status via attributes */
+academics-info progression-status::before {
   content: 'Progression Status: ';
 }
 
-status::before {
+academics-info progression-status::after {
+  content: attr(progression_status);
+}
+
+academics-info status::before {
   content: 'Status: ';
 }
 
-intial-enrollment::before {
+academics-info status::after {
+  content: attr(status);
+}
+
+academics-info intial-enrollment::before {
   content: 'Initial Enrollment: ';
 }
 
-graduation-date::before {
+academics-info graduation-date::before {
   content: 'Graduation Date: ';
 }
 
 id, GPA, progression-status, status, intial-enrollment, graduation-date {
   display: block;
   margin-left: 20px;
+  margin-top: 5px;
 }

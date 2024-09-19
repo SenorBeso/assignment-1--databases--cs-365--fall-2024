@@ -3,7 +3,7 @@
 <!DOCTYPE university SYSTEM "student.dtd">
 
 <university>
-<student first-name="Gordon" last-name="Sumner">
+<student first-name="Gordon" last-name="Sumner" >
   <name>
     <first-name>Gordon</first-name>
     <middle-name>Matthew</middle-name>
@@ -22,8 +22,8 @@
   <academics-info>
     <id>1234567</id>
     <GPA>4.0</GPA>
-    <progression-status>first year</progression-status>
-    <status>full-time</status>
+    <progression-status progression_status="first-year"></progression-status>
+    <status status="full-time"></status>
     <intial-enrollment>08-25-1969</intial-enrollment>
     <graduation-date>05-01-1973</graduation-date>
   </academics-info>
@@ -47,8 +47,8 @@
     <academics-info>
       <id>4567890</id>
       <GPA>3.0</GPA>
-      <progression-status>second year</progression-status>
-      <status>full-time</status>
+      <progression-status progression_status="second-year"></progression-status>
+      <status status="full-time"></status>
       <intial-enrollment>08-25-1978</intial-enrollment>
       <graduation-date>05-01-1982</graduation-date>
     </academics-info>
@@ -72,8 +72,8 @@
     <academics-info>
       <id>8302438</id>
       <GPA>2.0</GPA>
-      <progression-status>fourth year</progression-status>
-      <status>part-time</status>
+      <progression-status progression_status="fourth-year"></progression-status>
+      <status status="part-time"></status>
       <intial-enrollment>08-25-1983</intial-enrollment>
       <graduation-date>05-01-1987</graduation-date>
     </academics-info>
@@ -97,8 +97,8 @@
     <academics-info>
       <id>2983928</id>
       <GPA>3.8</GPA>
-      <progression-status>third year</progression-status>
-      <status>full-time</status>
+      <progression-status progression_status="third-year"></progression-status>
+      <status status="full-time"></status>
       <intial-enrollment>08-25-1998</intial-enrollment>
       <graduation-date>05-01-2002</graduation-date>
     </academics-info>
@@ -122,8 +122,8 @@
     <academics-info>
       <id>7645726</id>
       <GPA>4.0</GPA>
-      <progression-status>second year</progression-status>
-      <status>full-time</status>
+      <progression-status progression_status="second-year"></progression-status>
+      <status status="full-time"></status>
       <intial-enrollment>08-25-1984</intial-enrollment>
       <graduation-date>05-01-1988</graduation-date>
     </academics-info>
