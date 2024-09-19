@@ -81,6 +81,33 @@
           "initialEnrollment": "08-25-1983",
           "graduationDate": "05-01-1987"
         }
+      },
+      {
+        "firstName": "Emily",
+        "lastName": "Kokal",
+        "name": {
+          "firstName": "Emily",
+          "middleName": "",
+          "lastName": "Kokal",
+          "preferredName": ""
+        },
+        "contact": {
+          "email": "emily@warpaint.com",
+          "phone": "213.123.7654"
+        },
+        "programInfo": {
+          "major": "Political Science",
+          "minor": "Law",
+          "advisor": "Jenny Lee Lindberg"
+        },
+        "academicsInfo": {
+          "id": "2983928",
+          "GPA": "3.8",
+          "progressionStatus": "third-year",
+          "status": "full-time",
+          "initialEnrollment": "08-25-1998",
+          "graduationDate": "05-01-2002"
+        }
       }
     ]
   }
