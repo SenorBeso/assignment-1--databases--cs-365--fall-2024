@@ -1,7 +1,8 @@
+/* This is the css style sheet to format xml document in browser instead of one lump of text */
 :root {
   margin: 0 auto;
   width: 1200px;
-  font-family: 'Nunito Sans', serif;
+  font-family: 'Times New Roman', serif;
 }
 
 :root::before {
@@ -12,13 +13,11 @@
   display: block;
 }
 
-/* Student Container */
 student {
   margin: 24px 0;
   padding: 20px;
 }
 
-/* Display student first and last name as the header */
 student::before {
   content: attr(first-name) " " attr(last-name);
   font-weight: bold;
@@ -27,7 +26,6 @@ student::before {
   margin-bottom: 12px;
 }
 
-/* Name formatting */
 name::before {
   content: 'Full Name: ';
   font-weight: bold;
@@ -54,7 +52,6 @@ name {
   margin: 12px 0;
 }
 
-/* Contact information */
 contact::before {
   content: 'Contact Information:';
   font-weight: bold;
@@ -75,7 +72,6 @@ email, phone {
   margin-top: 5px;
 }
 
-/* Program information */
 program-info::before {
   content: 'Program Information:';
   font-weight: bold;
@@ -100,7 +96,6 @@ major, minor, advisor {
   margin-top: 5px;
 }
 
-/* Academics info */
 academics-info::before {
   content: 'Academics Information:';
   font-weight: bold;
@@ -115,7 +110,6 @@ academics-info GPA::before {
   content: 'GPA: ';
 }
 
-/* Display progression status and status via attributes */
 academics-info progression-status::before {
   content: 'Progression Status: ';
 }
